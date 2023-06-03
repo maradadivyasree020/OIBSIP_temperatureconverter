@@ -1,9 +1,8 @@
 function convert(){
-    let a=document.querySelector('input').checked;
-    let b=document.querySelector('input').checked;
-    if(a)
+    let a=document.querySelector("input[name='temp']:checked");
+    if(a.id==="cels")
     far();
-    else
+    if(a.id==="fare")
     cel();
 }
 
