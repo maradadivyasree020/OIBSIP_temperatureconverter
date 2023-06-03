@@ -20,7 +20,7 @@ body{
     background: linear-gradient(to right bottom,rgba(255,255,255,0.7),rgba(255,255,255,0.3));
 }
 
-input{
+input[type=text]{
     border-radius: 5px;
     font-size: xx-large;
     width: 70%;
@@ -31,7 +31,11 @@ input{
 button{
     border:1px solid #65dfc9;
     font-size: x-large;
-    width: 100%;
+    width: 50%;
     height: 40px;
     background-color: white;
+}
+
+input[type=radio]{
+    font-size: xx-large;
 }

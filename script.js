@@ -1,3 +1,4 @@
+
 function far(){
     let b=document.querySelector('input').value;
 
@@ -11,7 +12,7 @@ function far(){
     f.innerHTML=ans;
 } 
 
-function car(){
+function cel(){
     let b=document.querySelector('input').value; 
 
     let ans=((b*1)-32)*0.56;

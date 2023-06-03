@@ -12,14 +12,17 @@
 
     <div class="input">
         <form>
-            <input type="text" placeholder="Enter Temperature">
+            <input type="text" id="inp" placeholder="Enter Temperature"></input>
         </form>
         <br><br><br> 
 
-        <div class="buttons">
-            <button type="button" onclick="far()">Convert to Farenheit</button>
+        <h3 style="font-size: x-large;">Entered Temperature is in</h3>
+        <div>
+            <form>
+            <input type="radio" name="temp" onclick="far()">Celsius
             <br><br>
-            <button type="button" onclick="car()">Convert to Celsius</button>
+            <input type="radio" name="temp" onclick="cel()">Farenheit
+            </form>
         </div>
     </div>
 
