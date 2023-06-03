@@ -1,3 +1,11 @@
+function convert(){
+    let a=document.querySelector('input').checked;
+    let b=document.querySelector('input').checked;
+    if(a)
+    far();
+    else
+    cel();
+}
 
 function far(){
     let b=document.querySelector('input').value;
@@ -23,5 +31,10 @@ function cel(){
 
     c.innerHTML=ans;
     f.innerHTML=b;
+}
+
+function clear(){
+    let b=document.querySelector('input');
+    b.value="";
 }
 
